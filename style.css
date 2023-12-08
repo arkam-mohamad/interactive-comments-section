@@ -1,1 +1,111 @@
+*{
+  margin: 0;
+  font-family: 'Rubik', sans-serif;
+}
+body{
+  background-color: hsl(228, 33%, 97%);
+}
+main{
+  width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.comment-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.comment-box{
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+  background-color: white;
+  align-items: start;
+  border-radius: 10px;
+}
+.reply-container{
+  border-left: 1px solid hsl(228, 5%, 81%);
+  padding-left: 20px;
+  margin-left: 20px;
 
+}
+.votes{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background-color: hsl(228, 33%, 97%);
+  padding: 10px;
+  border-radius: 5px;
+}
+h1{
+  color: hsl(238, 40%, 52%);
+  font-size: 22px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* background-color: blue; */
+  width: 100%;
+}
+.content-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.user{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.avatar{
+  width: 30px;
+}
+h2{
+  font-size: 18px;
+  font-weight: 500;
+}
+.you{
+  background-color: hsl(238, 40%, 52%);
+  color: white;
+  padding: 0 5px 2px;
+  font-size: 16px;
+}
+p{
+  color: hsl(211, 10%, 45%);
+  font-size: 16px;
+}
+.to{
+  font-weight: bold;
+  color: hsl(238, 40%, 52%);
+}
+.action{
+  display: flex;
+  gap: 20px;
+}
+.reply{
+  color: hsl(238, 40%, 52%);
+  font-weight: bold;
+}
+.delete{
+  color: hsl(358, 79%, 66%);
+  font-weight: bold;
+}
+.user-avatar{
+  width: 40px;
+}
+textarea{
+  border: 1px solid hsl(223, 19%, 93%);
+  padding: 10px;
+  border-radius: 5px;
+}
+.send{
+  background-color: hsl(238, 40%, 52%);
+  border: 0;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
