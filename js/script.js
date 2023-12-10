@@ -42,7 +42,7 @@ let text = comments.map(comment => (
               <div class="user">
                 <img src="${reply.user.image.png}" alt="${reply.user.username}" class="avatar">
                 <h2>${reply.user.username}</h2>
-                <h3 class="you">${reply.user.username == currentUser.username ? "you" : ""}</h3>
+                ${reply.user.username == currentUser.username ? "<h3 class='you'>you</h3>" : ""}
                 <p>${reply.createdAt}</p>
               </div>
               <div class="action">
